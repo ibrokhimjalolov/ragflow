@@ -1989,6 +1989,13 @@ This process aggregates variables from multiple branches into a single variable 
       tavilySearchDescription: 'Search results via Tavily service.',
       tavilyExtract: 'Tavily extract',
       tavilyExtractDescription: 'Tavily Extract',
+      googleDocsRead: 'Google Docs Read',
+      googleDocsReadDescription:
+        'A component that reads content from Google Docs using document ID.',
+      serviceAccountJson: 'Service Account JSON',
+      serviceAccountJsonPlaceholder:
+        'Paste your Google Cloud service account JSON key here',
+      productivity: 'Productivity',
       log: 'Log',
       management: 'Management',
       import: 'Import',
@@ -2024,6 +2031,7 @@ This process aggregates variables from multiple branches into a single variable 
         wikipedia: 'Searching Wikipedia',
         googleScholar: 'Academic search',
         gitHub: 'Searching GitHub',
+        googleDocsRead: 'Reading Google Docs',
         email: 'Sending email',
         httpRequest: 'Calling an API',
         wenCai: 'Querying financial data',

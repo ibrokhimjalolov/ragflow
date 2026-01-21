@@ -47,6 +47,10 @@ const Menus = [
     label: t('flow.developer'),
     list: [Operator.GitHub, Operator.ExeSQL, Operator.Code, Operator.Retrieval],
   },
+  {
+    label: t('flow.productivity'),
+    list: [Operator.GoogleDocsRead],
+  },
 ];
 
 type ToolCommandProps = {

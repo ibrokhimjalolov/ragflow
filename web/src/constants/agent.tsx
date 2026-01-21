@@ -98,6 +98,7 @@ export enum Operator {
   Tool = 'Tool',
   TavilySearch = 'TavilySearch',
   TavilyExtract = 'TavilyExtract',
+  GoogleDocsRead = 'GoogleDocsRead',
   UserFillUp = 'UserFillUp',
   StringTransform = 'StringTransform',
   SearXNG = 'SearXNG',

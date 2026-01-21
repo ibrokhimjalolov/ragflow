@@ -553,6 +553,16 @@ export const initialTavilyExtractValues = {
   },
 };
 
+export const initialGoogleDocsReadValues = {
+  service_account_json: '',
+  outputs: {
+    content: {
+      value: '',
+      type: 'string',
+    },
+  },
+};
+
 export const initialPlaceholderValues = {
   // Placeholder node doesn't need any specific form values
   // It's just a visual placeholder
@@ -675,6 +685,7 @@ export const RestrictedUpstreamMap = {
   [Operator.Agent]: [Operator.Begin],
   [Operator.TavilySearch]: [Operator.Begin],
   [Operator.TavilyExtract]: [Operator.Begin],
+  [Operator.GoogleDocsRead]: [Operator.Begin],
   [Operator.StringTransform]: [Operator.Begin],
   [Operator.UserFillUp]: [Operator.Begin],
   [Operator.Tool]: [Operator.Begin],
@@ -724,6 +735,7 @@ export const NodeMap = {
   [Operator.Agent]: 'agentNode',
   [Operator.Tool]: 'toolNode',
   [Operator.TavilySearch]: 'ragNode',
+  [Operator.GoogleDocsRead]: 'ragNode',
   [Operator.UserFillUp]: 'ragNode',
   [Operator.StringTransform]: 'ragNode',
   [Operator.TavilyExtract]: 'ragNode',
