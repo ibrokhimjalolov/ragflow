@@ -7,6 +7,7 @@ import EmailForm from './email-form';
 import ExeSQLForm from './exesql-form';
 import GithubForm from './github-form';
 import GoogleDocsReadForm from './google-docs-read-form';
+import GoogleDocsWriteForm from './google-docs-write-form';
 import GoogleForm from './google-form';
 import GoogleScholarForm from './google-scholar-form';
 import PubMedForm from './pubmed-form';
@@ -37,4 +38,5 @@ export const ToolFormConfigMap = {
   [Operator.WenCai]: WenCaiForm,
   [Operator.SearXNG]: SearXNGForm,
   [Operator.GoogleDocsRead]: GoogleDocsReadForm,
+  [Operator.GoogleDocsWrite]: GoogleDocsWriteForm,
 };

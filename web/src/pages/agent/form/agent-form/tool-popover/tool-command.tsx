@@ -49,7 +49,7 @@ const Menus = [
   },
   {
     label: t('flow.productivity'),
-    list: [Operator.GoogleDocsRead],
+    list: [Operator.GoogleDocsRead, Operator.GoogleDocsWrite],
   },
 ];
 

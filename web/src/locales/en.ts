@@ -1992,6 +1992,9 @@ This process aggregates variables from multiple branches into a single variable 
       googleDocsRead: 'Google Docs Read',
       googleDocsReadDescription:
         'A component that reads content from Google Docs using document ID.',
+      googleDocsWrite: 'Google Docs Write',
+      googleDocsWriteDescription:
+        'A component that writes/updates content in Google Docs using batchUpdate operations.',
       serviceAccountJson: 'Service Account JSON',
       serviceAccountJsonPlaceholder:
         'Paste your Google Cloud service account JSON key here',
@@ -2032,6 +2035,7 @@ This process aggregates variables from multiple branches into a single variable 
         googleScholar: 'Academic search',
         gitHub: 'Searching GitHub',
         googleDocsRead: 'Reading Google Docs',
+        googleDocsWrite: 'Writing to Google Docs',
         email: 'Sending email',
         httpRequest: 'Calling an API',
         wenCai: 'Querying financial data',

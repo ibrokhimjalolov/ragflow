@@ -563,6 +563,20 @@ export const initialGoogleDocsReadValues = {
   },
 };
 
+export const initialGoogleDocsWriteValues = {
+  service_account_json: '',
+  outputs: {
+    result: {
+      value: '',
+      type: 'string',
+    },
+    success: {
+      value: true,
+      type: 'boolean',
+    },
+  },
+};
+
 export const initialPlaceholderValues = {
   // Placeholder node doesn't need any specific form values
   // It's just a visual placeholder
@@ -686,6 +700,7 @@ export const RestrictedUpstreamMap = {
   [Operator.TavilySearch]: [Operator.Begin],
   [Operator.TavilyExtract]: [Operator.Begin],
   [Operator.GoogleDocsRead]: [Operator.Begin],
+  [Operator.GoogleDocsWrite]: [Operator.Begin],
   [Operator.StringTransform]: [Operator.Begin],
   [Operator.UserFillUp]: [Operator.Begin],
   [Operator.Tool]: [Operator.Begin],
@@ -736,6 +751,7 @@ export const NodeMap = {
   [Operator.Tool]: 'toolNode',
   [Operator.TavilySearch]: 'ragNode',
   [Operator.GoogleDocsRead]: 'ragNode',
+  [Operator.GoogleDocsWrite]: 'ragNode',
   [Operator.UserFillUp]: 'ragNode',
   [Operator.StringTransform]: 'ragNode',
   [Operator.TavilyExtract]: 'ragNode',
